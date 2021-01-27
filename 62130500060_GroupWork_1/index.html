@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Basic Vue Js - HelloWorld App</title>
+  <title>YouTube</title>
+
+  <!-- https://fontawesome.com/icons -->
+  <!-- Using Icon From FontAwesome -->
+  <script src="https://kit.fontawesome.com/6befbe471f.js" crossorigin="anonymous"></script>
 
   <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
   <!-- Using via Google Web Fonts -->
@@ -21,8 +25,24 @@
 </head>
 
 <body>
-  <div id="app" class="">
-    
+  <div id="app" class="h-screen w-full py-5 px-6 flex items-start justify-start">
+
+    <div id="nav" class="flex items-center justify-start w-full">
+      <i class="material-icons opacity-60">menu</i>
+      <a href="./index.html" class="ml-5"><img src="./images/yt_icon.png" class="h-auto w-20"></a><sup>TH</sup>
+      <div class="ml-24 border-solid border-gray-200 border"><input type="text" placeholder="ค้นหา"
+          class="px-3 py-1 w-96"></div>
+      <button type="button" class="border-solid border-gray-200 border bg-gray-50 text-center">
+        <i class="material-icons opacity-30 px-px py-1 w-16 ">search</i>
+      </button>
+      <i class="material-icons opacity-60">mic</i>
+      <i class="material-icons opacity-50">video_call</i>
+      <i class="material-icons opacity-50">apps</i>
+      <i class="material-icons opacity-50">notifications</i>
+      <div><img src="./images/profiles.jpg" class="w-8 h-8 rounded-full"></div>
+    </div>
+
+
   </div>
 
   <!-- my main.js -->
