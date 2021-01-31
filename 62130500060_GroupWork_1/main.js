@@ -1,9 +1,9 @@
-    const app = {
-        data() {
-            return {
-                webname: 'LINE TV'
-            }
-        }
-
+const app = {
+  data() {
+    return {
+      webname: 'LINE TV'
     }
-    Vue.createApp(app).mount('#app')
+  }
+
+}
+Vue.createApp(app).mount('#app')
